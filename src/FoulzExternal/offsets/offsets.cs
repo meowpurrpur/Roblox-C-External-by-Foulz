@@ -7,16 +7,21 @@ namespace Offsets
 {
     public static class Info
     {
-        public static string ClientVersion = "version-80c7b8e578f241ff";
+        public static string ClientVersion = "version-bd08027bb04e4045";
     }
 
     public static class AnimationTrack
     {
         public const long Animation = 0xd0;
         public const long Animator = 0x118;
-        public const long IsPlaying = 0x5a8;
+        public const long IsPlaying = 0x395;
         public const long Looped = 0xf5;
         public const long Speed = 0xe4;
+    }
+
+    public static class Animator
+    {
+        public const long ActiveAnimations = 0x628;
     }
 
     public static class Atmosphere
@@ -106,22 +111,22 @@ namespace Offsets
 
     public static class FFlags
     {
-        public const long DebugDisableTimeoutDisconnect = 0x6898e08;
-        public const long EnableLoadModule = 0x688de60;
-        public const long PartyPlayerInactivityTimeoutInSeconds = 0x684892c;
-        public const long NextGenReplicatorEnabledWrite4 = 0x68DB690;
-        public const long PhysicsSenderMaxBandwidthBps = 0x6848e04;
-        public const long PhysicsSenderMaxBandwidthBpsScaling = 0x6848e04;
+        public const long DebugDisableTimeoutDisconnect = 0x773d0b8;
+        public const long EnableLoadModule = 0x7722fa8;
+        public const long PartyPlayerInactivityTimeoutInSeconds = 0x695992c;
+        public const long NextGenReplicatorEnabledWrite4 = 0x796e7b0;
+        public const long PhysicsSenderMaxBandwidthBps = 0x6959ddc;
+        public const long PhysicsSenderMaxBandwidthBpsScaling = 0x6959de4;
         public const long TaskSchedulerLimitTargetFpsTo2402 = 0x0;
-        public const long TaskSchedulerTargetFps = 0x75a7c64;
-        public const long WebSocketServiceEnableClientCreation = 0x68a5bf8;
-        public const long WorldStepMax = 0x684ca74;
-        public const long WorldStepsOffsetAdjustRate = 0x684ca70;
+        public const long TaskSchedulerTargetFps = 0x76a8730;
+        public const long WebSocketServiceEnableClientCreation = 0x7766768;
+        public const long WorldStepMax = 0x695daac;
+        public const long WorldStepsOffsetAdjustRate = 0x695dab0;
     }
 
     public static class FakeDataModel
     {
-        public const long Pointer = 0x7c75728;
+        public const long Pointer = 0x7d909f8;
         public const long RealDataModel = 0x1c0;
     }
 
@@ -155,7 +160,7 @@ namespace Offsets
         public const long MaxHealth = 0x1b4;
         public const long MaxSlopeAngle = 0x1b8;
         public const long MoveDirection = 0x0;
-        public const long RigType = 0x1C8;
+        public const long RigType = 0x1c8;
         public const long Walkspeed = 0x1d4;
         public const long WalkspeedCheck = 0x3c0;
     }
@@ -223,9 +228,9 @@ namespace Offsets
 
     public static class MouseService
     {
-        public const long InputObject = 0x100;
-        public const long MousePosition = 0xec;
-        public const long SensitivityPointer = 0x7cfd200;
+        public const long InputObject = 0x0;
+        public const long MousePosition = 0x0;
+        public const long SensitivityPointer = 0x7e18770;
     }
 
     public static class Player
@@ -245,8 +250,8 @@ namespace Offsets
 
     public static class PlayerConfigurer
     {
-        public const long OverrideDuration = 0x3b8;
-        public const long Pointer = 0x7c53948;
+        public const long OverrideDuration = 0x5894805;
+        public const long Pointer = 0x307;
     }
 
     public static class PlayerMouse
@@ -312,7 +317,6 @@ namespace Offsets
     public static class StatsItem
     {
         public const long Value = 0x1c8;
-        public const long Ping = 0xC8;
     }
 
     public static class SunRaysEffect
@@ -329,7 +333,7 @@ namespace Offsets
         public const long JobName = 0x18;
         public const long JobStart = 0x1d0;
         public const long MaxFPS = 0x1b0;
-        public const long Pointer = 0x7d33708;
+        public const long Pointer = 0x7e4ed08;
         public const long RenderJobToFakeDataModel = 0x38;
         public const long RenderJobToRenderView = 0x218;
     }
@@ -358,7 +362,7 @@ namespace Offsets
     public static class VisualEngine
     {
         public const long Dimensions = 0x720;
-        public const long Pointer = 0x775e8d0;
+        public const long Pointer = 0x79449e0;
         public const long ToDataModel1 = 0x700;
         public const long ToDataModel2 = 0x1c0;
         public const long ViewMatrix = 0x120;
@@ -366,12 +370,12 @@ namespace Offsets
 
     public static class Workspace
     {
-        public const long CurrentCamera = 0x460;
-        public const long DistributedGameTime = 0x480;
+        public const long CurrentCamera = 0x4a0;
+        public const long DistributedGameTime = 0x4c0;
         public const long Gravity = 0x1d0;
         public const long GravityContainer = 0x3d8;
         public const long PrimitivesPointer1 = 0x3d8;
         public const long PrimitivesPointer2 = 0x240;
-        public const long ReadOnlyGravity = 0x940;
+        public const long ReadOnlyGravity = 0xa28;
     }
 }
