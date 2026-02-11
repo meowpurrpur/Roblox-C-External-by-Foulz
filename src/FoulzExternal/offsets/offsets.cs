@@ -117,7 +117,7 @@ namespace Offsets
         public const long NextGenReplicatorEnabledWrite4 = 0x796e7b0;
         public const long PhysicsSenderMaxBandwidthBps = 0x6959ddc;
         public const long PhysicsSenderMaxBandwidthBpsScaling = 0x6959de4;
-        public const long TaskSchedulerLimitTargetFpsTo2402 = 0x0;
+        public const long TaskSchedulerLimitTargetFpsTo2402 = 0x796b3d8;
         public const long TaskSchedulerTargetFps = 0x76a8730;
         public const long WebSocketServiceEnableClientCreation = 0x7766768;
         public const long WorldStepMax = 0x695daac;
