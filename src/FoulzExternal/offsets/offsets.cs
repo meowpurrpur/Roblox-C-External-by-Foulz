@@ -336,6 +336,7 @@ namespace Offsets
         public const long Pointer = 0x7e4ed08;
         public const long RenderJobToFakeDataModel = 0x38;
         public const long RenderJobToRenderView = 0x218;
+        public const long Ping = 0xc8;
     }
 
     public static class Team
