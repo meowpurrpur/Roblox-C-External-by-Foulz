@@ -317,6 +317,7 @@ namespace Offsets
     public static class StatsItem
     {
         public const long Value = 0x1c8;
+        public const long Ping = 0xc8; 
     }
 
     public static class SunRaysEffect
@@ -336,7 +337,7 @@ namespace Offsets
         public const long Pointer = 0x7e4ed08;
         public const long RenderJobToFakeDataModel = 0x38;
         public const long RenderJobToRenderView = 0x218;
-        public const long Ping = 0xc8;
+        public const long Ping = 0xc8; // ik i have this instats too but this is bc some ppl have it in 1 or the other so delete or don't use what you want
     }
 
     public static class Team
